@@ -1,23 +1,23 @@
 # Program make a simple calculator
 
 # This function adds two numbers
-def add(x, y):
-    return x + y
+def add(a, b):
+    return a + b
 
 # This function subtracts two numbers
-def subtract(x, y):
-    return x - y
+def subtract(a, b):
+    return a - b
 
 # This function multiplies two numbers
-def multiply(x, y):
-    return x * y
+def multiply(a, b):
+    return a * b
 
 # This function divides two numbers
-def divide(x, y):
-    return x / y
+def divide(a, b):
+    return a / b
 
 
-print("Select operation.")
+print("Select an operation.")
 print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
@@ -46,8 +46,9 @@ while True:
         
         # check if user wants another calculation
         # break the while loop if answer is no
-        next_calculation = input("Let's do next calculation? (yes/no): ")
-        if next_calculation == "no":
+        next_calc = input("Let's do next calculation? (yes/no): ")
+        if next_calc == "no":
+          print("Thank you! Have a great day.")
           break
     
     else:
