@@ -1,1 +1,1 @@
-# calc
+This repository doesn't shoe anything big or complex but it's something I put a lot of effort in. It's a calculator with a nice message when you get the result of your calculation. It provides the four basic options: add, subtract, multiply and divide. It first prompts the user to select the type of operation, to proceed with asking the first number to then take the second number. When the user has provided both numbers the result is shown displaying the nice message as well. 
